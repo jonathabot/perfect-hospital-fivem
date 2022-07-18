@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="js/index.js"></script>
+  <script src="https://kit.fontawesome.com/6a557b3f17.js" crossorigin="anonymous"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800;900&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar" role="navigation">
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <text class="navbar-item has-text-white" id="pillboxHospital">
+            Grey Sloan <br> Memorial Hospital
+          </text>
+          <a class="navbar-item has-text-white navbarOpcs" href="paginas/valores.html">
+            Valores
+          </a>
+          <a class="navbar-item has-text-white navbarOpcs" href="paginas/regras.html">
+            Regras
+          </a>
+          <a class="navbar-item has-text-white navbarOpcs" href="paginas/arquivos.html">
+            Prontuario
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="botaoSupervisor has-text-white" href="areasupervisor/supervisor.html">
+              Entrar como <br>Supervisor
+            </a>
+          </div>
+          <a class="navbar-item" id="fecharSistema" href="">
+            <button class="fa-solid fa-power-off has-text-white off"></button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+   <div class="container">
+      <div class="userInformation">
+
+        <div class="blocoSeiLa"></div>
+
+        <div class="userAvatar">
+          <img class="is-rounded" src="https://i.pinimg.com/originals/2f/cb/be/2fcbbe8f2bb4e030e38b8ccd3c7f3b2d.jpg" alt="">
+        </div>
+
+        <div class="userTitle">
+          <text>Ronaldinho Gaviria</text>
+        </div>
+
+        <div class="userSet">
+          <text>Diretor<text>
+        </div>
+
+        <div class="userInsignias"> <!--INSIGNAS-->
+          <span class="icon">
+            <i class="fas fa-train"></i>
+          </span>
+          <span class="icon">
+            <i class="fas fa-utensils"></i>
+          </span>
+          <span class="icon">
+            <i class="fas fa-city"></i>
+          </span>
+          <span class="icon">
+            <i class="fas fa-flag-checkered"></i>
+          </span>
+        </div>
+
+        <div class="userStatus">
+          <div>
+            <progress class="progress is-success" value="75" max="100">75%</progress>
+            <text>Voce cumpriu 75% da sua carga semanal!</text>
+          </div>
+        </div>
+      </div>
+
+      <div class="application-container">    
+        <div class="timelineEverything"> 
+          <div class="timelineNotification">
+            <div class="column1">
+              <div class="userAvatarNotification">
+                <img class="is-rounded" src="https://i.pinimg.com/originals/2f/cb/be/2fcbbe8f2bb4e030e38b8ccd3c7f3b2d.jpg" width="150" height="150" alt="">
+              </div>
+              <div class="userNameNotification has-text-gray">
+                <text>Ronaldinho</text>
+              </div>
+              <div class="userSetNotification has-text-gray">
+                <text>Médico</text>
+              </div>
+              <div class="userInsigNotification"> <!--INSIGNAS-->
+                <span class="icon">
+                  <i class="fas fa-train"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-utensils"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-city"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-flag-checkered"></i>
+                </span>
+              </div>
+              <div class="tipoDeNoficacao consulta">
+                <span class="icon">
+                  <i class="fa-solid fa-person-circle-check"></i>
+              </span>
+              </div>
+            </div>
+            <div class="column2">
+              <div>
+                <div class="tipoConsultaNotificacao has-text-gray">
+                  <text>Novo Funcionário</text>
+                </div>
+                <div class="blocoInfoNotif">
+                  <text>Deem boas vindas ao novo funcionário Shaolin MatadorDePorco!</text>
+                </div>
+                <div class="dataHoraNotif">
+                  <text>13 de maio de 2022 | 01:50</text>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timelineNotification">
+            <div class="column1">
+              <div class="userAvatarNotification">
+                <img class="is-rounded" src="https://i.pinimg.com/originals/2f/cb/be/2fcbbe8f2bb4e030e38b8ccd3c7f3b2d.jpg" width="150" height="150" alt="">
+              </div>
+              <div class="userNameNotification has-text-gray">
+                <text>Ronaldinho</text>
+              </div>
+              <div class="userSetNotification has-text-gray">
+                <text>Médico</text>
+              </div>
+              <div class="userInsigNotification"> <!--INSIGNAS-->
+                <span class="icon">
+                  <i class="fas fa-train"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-utensils"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-city"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-flag-checkered"></i>
+                </span>
+              </div>
+              <div class="tipoDeNoficacao comunicado">
+                <span class="icon">
+                  <i class=" fa-solid fa-bell"></i>
+              </span>
+              </div>
+            </div>
+            <div class="column2">
+              <div>
+                <div class="tipoConsultaNotificacao has-text-gray">
+                  <text>Comunicado</text>
+                </div>
+                <div class="blocoInfoNotif">
+                  <text>Estaremos inaugurando o Hospital oficialmente hoje as 21:00 horas. Espero a colaboração de todos os funcionários.</text>
+                </div>
+                <div class="dataHoraNotif">
+                  <text>13 de maio de 2022 | 01:50</text>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timelineNotification">
+            <div class="column1">
+              <div class="userAvatarNotification">
+                <img class="is-rounded" src="https://i.pinimg.com/originals/2f/cb/be/2fcbbe8f2bb4e030e38b8ccd3c7f3b2d.jpg" width="150" height="150" alt="">
+              </div>
+              <div class="userNameNotification has-text-gray">
+                <text>Ronaldinho</text>
+              </div>
+              <div class="userSetNotification has-text-gray">
+                <text>Médico</text>
+              </div>
+              <div class="userInsigNotification"> <!--INSIGNAS-->
+                <span class="icon">
+                  <i class="fas fa-train"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-utensils"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-city"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-flag-checkered"></i>
+                </span>
+              </div>
+              <div class="tipoDeNoficacao advertencia">
+                <span class="icon">
+                  <i class="fa-solid fa-ban"></i>
+              </span>
+              </div>
+            </div>
+            <div class="column2">
+              <div>
+                <div class="tipoConsultaNotificacao has-text-gray">
+                  <text>Advertencia</text>
+                </div>
+                <div class="blocoInfoNotif">
+                  <text>Paramédico Shaolin MatadorDePorco (385) foi advertido por quebrar o código de conduta do hospital. O mesmo realizou tratamentos médicos em Rua mesmo tendo a noção que esse processo é PROÍBIDO. Fique de alerta para os outros funcionários do Hospital.</text>
+                </div>
+                <div class="dataHoraNotif">
+                  <text>13 de maio de 2022 | 01:50</text>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timelineNotification">
+            <div class="column1">
+              <div class="userAvatarNotification">
+                <img class="is-rounded" src="https://i.pinimg.com/originals/2f/cb/be/2fcbbe8f2bb4e030e38b8ccd3c7f3b2d.jpg" width="150" height="150" alt="">
+              </div>
+              <div class="userNameNotification has-text-gray">
+                <text>Ronaldinho</text>
+              </div>
+              <div class="userSetNotification has-text-gray">
+                <text>Médico</text>
+              </div>
+              <div class="userInsigNotification"> <!--INSIGNAS-->
+                <span class="icon">
+                  <i class="fas fa-train"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-utensils"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-city"></i>
+                </span>
+                <span class="icon">
+                  <i class="fas fa-flag-checkered"></i>
+                </span>
+              </div>
+              <div class="tipoDeNoficacao demissao">
+                <span class="icon">
+                  <i class="fa-solid fa-person-circle-minus"></i>
+              </span>
+              </div>
+            </div>
+            <div class="column2">
+              <div>
+                <div class="tipoConsultaNotificacao has-text-gray">
+                  <text>Demissão</text>
+                </div>
+                <div class="blocoInfoNotif">
+                  <text>Informamos aqui a demissão do Paramédico Shaolin MatadorDePorco(312) por quebras contínuas do código de conduta do hospital. O mesmo realizou venda de medicamentos do hospital mesmo tendo a noção que esse processo é PROÍBIDO. Fique de alerta para os outros funcionários do Hospital.</text>
+                </div>
+                <div class="dataHoraNotif">
+                  <text>13 de maio de 2022 | 01:50</text>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="embaixoA">
+          <div class="hospitalInfo">
+            <text class="paraMedInfoOn">
+              <i class="fa-solid fa-truck-medical"></i>
+              0 Paramédicos em serviço.
+            </text>
+            <text class="medInfoOn">
+              <i class="fa-solid fa-comment-medical"></i>
+              &nbsp0 Médicos em serviço.
+            </text>
+          </div>
+          <a class="baterPonto" id="baterPontoEntrada" href="paginas/workingMed.html">
+            <text class="has-text-white buttonBaterPonto" >Entrar em Serviço</text>
+          </a>
+        </footer>
+      </div>
+   </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,310 @@
+html {
+    background: none;
+}
+.content {
+    width: 1200px;
+    height: 750px;
+    background-color: white;
+    padding: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#B1E1E9, #96D7EB);
+}
+
+#pillboxHospital {
+    font-family: 'Gotham XLight', sans-serif;
+    font-size: 25px;
+    line-height: 0.8;
+    margin-right: 180px;
+    margin-left: 50px;
+}
+
+.navbar {
+    background-image: linear-gradient(#105B9F, #0D96CC);
+    text-align: center;
+    height: 100px;
+    font-size: 1.4em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbarOpcs {
+    font-family: 'Gotham Black', sans-serif;
+}
+
+a:hover {
+    background-color: unset !important;
+    color: unset !important;
+}
+.home {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.buttons {
+    line-height: 1;
+    font-size: 11px;
+    font-family: 'Gotham XLight', sans-serif;
+}
+
+.off {
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: inherit;
+    margin-right: 10px;
+}
+
+.userInformation {
+    width: 350px;
+    height: 600px;
+    margin: 25px;
+    text-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0;
+    border-color: #1E2444;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #E8F1F6;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+.blocoSeiLa {
+    width: 75px;
+    height: 6px;
+    background-color: rgba(0,0,0,0.4);;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.userAvatar {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userAvatar img{
+    border-radius: 50%;
+}
+
+.userTitle {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    width: 330px;
+    font-size:medium;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.userSet { 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+.userInsignias {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.userStatus {
+    max-width: 75%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.userStatus progress {
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 2px 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.timelineEverything {
+    width: 750px;
+    height: 510px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+.timelineNotification{
+    background-color: #F2F3F5;
+    width: 700px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    margin: 25px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.userAvatarNotification{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000000;
+}
+
+.userAvatarNotification img{
+    border-radius: 50%;
+}
+
+.userNameNotification {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+.userSetNotification {
+    margin-top: -3px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Gotham', sans-serif;
+}
+
+.userInsigNotification {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.tipoConsultaNotificacao {
+    font-size: 16px;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+.blocoInfoNotif{
+    width: 500px;
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #C0C0C0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    font-family: 'Gotham Black', sans-serif;
+    padding: 10px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.blocoInfoNotif text{
+    padding: 5%;
+  }
+
+::-webkit-scrollbar {
+    width: 14px;
+  }
+  
+  /* 4px scroll thumb. 10px margin from right margin */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 14px 14px transparent;
+    border: solid 4px transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 14px 14px gray;
+    border: solid 4px transparent;
+    border-radius: 14px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+.dataHoraNotif {
+    font-family: 'Gotham Black', sans-serif;
+    text-align: right;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+.application-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.embaixoA {
+    width: 700px;
+    height: 80px;
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0;
+    border-color: #1E2444;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Gotham Black', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonDesbaterPonto {
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #B90504;
+    border-radius: 5px;
+    line-height: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hospitalInfo {
+    display: flex;
+    flex-direction: column;
+}
+.textoWorkTimer {
+    display: flex;
+    flex-direction: column;
+}

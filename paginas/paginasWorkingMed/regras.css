@@ -1,0 +1,78 @@
+
+.content {
+    width: 1200px;
+    height: 750px;
+    background-color: white;
+    padding: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#B1E1E9, #96D7EB);
+}
+
+.navbar {
+    background-image: linear-gradient(#105B9F, #0D96CC);
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+.buttonVoltar {
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: inherit;
+    margin-left: 35px;
+}
+
+#navbarOpcs {
+   font-family: 'Gotham Black', sans-serif;
+   font-size: 40px;
+   margin-left: 410px;
+}
+
+a:hover {
+    background-color: unset !important;
+    color: unset !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoEspaco {
+    background-color: #F2F3F5;
+    font-family: 'Gotham Black', sans-serif;
+    border-radius: 10px;
+    margin: 50px;
+    max-height: 550px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+  }
+  
+  /* 4px scroll thumb. 10px margin from right margin */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 14px 14px transparent;
+    border: solid 4px transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 14px 14px gray;
+    border: solid 4px transparent;
+    border-radius: 14px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }

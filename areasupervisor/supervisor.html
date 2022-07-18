@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>greysloan.exe</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="supervisor.css">
+  <script src="js/index.js"></script>
+  <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6a557b3f17.js" crossorigin="anonymous"></script>
+
+  <style>
+    @import url('http://fonts.cdnfonts.com/css/gotham');
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar" role="navigation">
+        <a class="navbar-item" href="../index.html">
+            <button class="fa-solid fa-circle-arrow-left has-text-white buttonVoltar"></button>
+        </a>
+        <text class="navbar-item has-text-white" id="navbarOpcs">
+            Área de Supervisão
+        </text>
+    </nav>
+
+   <div class="container">
+
+      <div class="column1 has-text-black">
+        <div class="textoRegistro">
+          <text>Registros</text>
+        </div>
+        <div class="logRegistro">
+          <div class="logMsg">
+            <div class="logText">
+              <text>NOME (ID): Entrou em serviço.</text>
+            </div>
+            <div class="logDateHour">
+              <div class="logDate">
+                <text>13/05</text>
+              </div>
+              <div class="logHour">
+                <text>14:07</text>
+              </div>
+            </div>
+          </div>
+          <div class="logMsg">
+            <div class="logText">
+              <text>NOME (ID): Saiu de serviço.</text>
+            </div>
+            <div class="logDateHour">
+              <div class="logDate">
+                <text>13/05</text>
+              </div>
+              <div class="logHour">
+                <text>14:10</text>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column2">
+        <div class="botoesOperation">
+          <div class="botaoRow1">
+            <div class="botaoEstrutura" id="botaoAdv">
+              <div class="textoBotao">Emitir<br>Advertência</div>
+            </div>
+            <div class="botaoEstrutura" id="botaoDemitir">
+              <div class="textoBotao">Demitir<br>Funcionário</div>
+            </div>
+            <div class="botaoEstrutura" id="botaoEspec">
+              <div class="textoBotao" id="textoAtribuir" >Atribuir<br>Especiali<br>zação</div>
+            </div>
+          </div>
+          <div class="botaoRow2">
+            <div class="botaoEstrutura" id="botaoComun">
+              <div class="textoBotao">Emitir<br>Comunicado</div>
+            </div>
+            <div class="botaoEstrutura" id="botaoCont">
+              <div class="textoBotao">Contratar<br>Funcionário</div>
+            </div>
+            <div class="botaoEstrutura" id="botaoLista">
+              <div class="textoBotao">Lista de <br>Funcionário</div>
+            </div>
+          </div>
+        </div>
+        <div class="logPlanilha">
+          Semana 1 [01/01 - 07/01]
+        </div>
+      </div>
+   </div>
+</body>
+
+</html>
